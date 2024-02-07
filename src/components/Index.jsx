@@ -6,7 +6,6 @@ const Index = (props) => {
     <Base>
       <main>
         <h2>TEST</h2>
-    
       </main>
     </Base>
   );

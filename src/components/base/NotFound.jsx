@@ -11,10 +11,9 @@ const NotFound = () => {
           <span className="perdu__titre--char3">4</span>
         </h2>
         <p className="perdu__para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          rerum architecto consequuntur itaque, dignissimos quos a expedita
-          quae, perferendis tenetur quas animi quod accusantium excepturi eaque
-          minus doloribus beatae sapiente.
+         Vous être perdu ? Vous avez sûrement pris un mauvais lien 
+         ou pire, la page n'existe pas ! Retournez dans une page sûre ou
+         nettoyez tout chemin pour quitter le néant du Web !
         </p>
       </main>
     </Base>

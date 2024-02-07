@@ -1,0 +1,12 @@
+.burger{
+    &__ouvert{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    &__titre{
+        font-family: 'Oswald' sans-serif;
+        text-align: center;
+        font-size: 3.4rem;
+    }
+}

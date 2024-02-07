@@ -1,0 +1,63 @@
+@use "../Couleur";
+
+.tete{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: Couleur.$principal;
+    width: 100vw;
+     gap: 5rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    &__element{
+        font-family: "Oswald", sans-serif;
+        display: none;
+        color: Couleur.$lien-bouton;
+        background-color: Couleur.$police-sombre;
+        font-size: 2.4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        border-radius: 8px;
+    }
+}
+
+.burger{
+    align-self: flex-end;
+}
+.logo{
+    width: 10rem;
+    height: inherit;
+    box-shadow: 2px;
+}
+
+@media screen and (min-width: 1024px) {
+    
+.burger{
+display: none;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    &__element{
+        font-family: "Oswald", sans-serif;
+        display: block;
+        color: Couleur.$lien-bouton;
+        background-color: Couleur.$police-sombre;
+        font-size: 2.4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        border-radius: 8px;
+    }
+}
+}

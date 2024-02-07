@@ -1,0 +1,14 @@
+@use "../Couleur";
+
+.pied{
+    background-color: Couleur.$principal;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    &__element{
+        color: Couleur.$fond-sombre;
+        font-size: 1.6rem;
+    }
+}
