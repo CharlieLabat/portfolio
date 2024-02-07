@@ -1,0 +1,27 @@
+@use "../Couleur";
+
+.bandeau{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    background-image:  linear-gradient(-90deg,rgba(255, 255, 255, 0), Couleur.$police-sombre), url("../../assets/images/photoBandeau.JPG");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    height: 20vh;
+    margin-bottom: 2rem;
+    &__titre{
+      font-family: 'Oswald', sans-serif;
+      color: Couleur.$principal;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bandeau{
+
+        height: 40vh;
+    
+        &__titre{
+            font-size: 3.2rem;
+        }
+    }
+}

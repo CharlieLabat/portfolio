@@ -1,0 +1,22 @@
+.card {
+    margin-left: 2rem;
+  &__titre {
+    font-size: 2.4rem;
+    font-family: "Oswald", sans-serif;
+    &--rouge {
+    }
+    &--vert {
+    }
+  }
+  &__zone {
+    &--rouge {
+    }
+    &--vert {
+    }
+  }
+  &__image {
+  }
+  &__texte{
+
+  }
+}

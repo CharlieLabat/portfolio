@@ -1,11 +1,14 @@
 import React from "react";
-import Base from "./base/Header/Header";
+import Base from "./base/Base";
+import Bandeau from "./Accueil/Bandeau";
+import Card from "./Card";
 
 const Index = (props) => {
   return (
     <Base>
       <main>
-        <h2>TEST</h2>
+        <Bandeau />
+        <Card titre="Test"/>
       </main>
     </Base>
   );
