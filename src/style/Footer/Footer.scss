@@ -10,5 +10,8 @@
     &__element{
         color: Couleur.$fond-sombre;
         font-size: 1.6rem;
+        &:hover, &:visited{
+            color: Couleur.$fond-sombre;
+        }
     }
 }

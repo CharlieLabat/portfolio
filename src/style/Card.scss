@@ -1,22 +1,67 @@
+@use "./Couleur";
+
 .card {
-    margin-left: 2rem;
+  margin-left: 4rem;
+  margin-bottom: 4rem;
+  margin-right: 4rem;
   &__titre {
     font-size: 2.4rem;
     font-family: "Oswald", sans-serif;
+    margin-bottom: 2rem;
     &--rouge {
+      &::after {
+        content: "";
+        width: 400px;
+        height: 200px;
+        background-color: Couleur.$fond-clair;
+      }
     }
     &--vert {
+      &::after {
+        content: "";
+        width: 400px;
+        height: 200px;
+        background-color: Couleur.$fond-sombre;
+      }
     }
   }
   &__zone {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 2rem;
+
     &--rouge {
+      background-color: Couleur.$fond-clair;
     }
     &--vert {
+      background-color: Couleur.$fond-sombre;
     }
   }
   &__image {
+    width: 100%;
+    height: inherit;
   }
-  &__texte{
+  &__textes {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    color: Couleur.$principal;
+    font-size: 1.6rem;
+  }
 
+}
+
+@media screen and (min-width: 1024px) {
+  .card{
+    margin-bottom: 8rem;
+    margin-right: 8rem;
+  
+    &__zone{
+
+      flex-direction: row;
+    }
   }
+  
 }

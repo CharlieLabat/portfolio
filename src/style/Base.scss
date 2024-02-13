@@ -1,4 +1,5 @@
 /* Regles generales */
+@use './Couleur';
 
 *,
 *:after,
@@ -16,6 +17,7 @@ body {
 a,
 a:hover,
 a:visited {
+  color: Couleur.$lien-bouton;
   text-decoration: none;
 }
 img {
