@@ -1,6 +1,8 @@
+// Element React (Base)
 import React from "react";
+// Style 
 import "../../style/Accueil/Bandeau.scss"
-
+// Bandeau de bienvenue du site 
 const Bandeau = () => {
   return (
     <section className="bandeau">

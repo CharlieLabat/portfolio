@@ -1,7 +1,9 @@
+// Element React (Base, Router)
 import React from "react";
-import "../../../style/Footer/Footer.scss"
 import { Link } from "react-router-dom";
-
+// Style
+import "../../../style/Footer/Footer.scss"
+// Pied de page du site
 const Footer = () => {
     return <footer className="pied">
          <Link to="/" className="pied__element">

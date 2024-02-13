@@ -1,6 +1,10 @@
+// Element React (Base)
 import React from "react";
+// Composant Secondaire
 import Base from "./Base";
+// Style
 import "../../style/NotFound.scss"
+// Page 404 : Quand la page n'existe pas ou plus
 const NotFound = () => {
   return (
     <Base>
