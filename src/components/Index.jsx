@@ -4,18 +4,20 @@ import React from "react";
 import Base from "./base/Base";
 import Bandeau from "./Accueil/Bandeau";
 import Card from "./Card";
+import Sun from "./Accueil/Sun";
 // Element Image
 import APropos from "../assets/images/photoAPropos.JPG";
-
-
+import { Link } from "react-router-dom";
+// Style 
+import "../style/Accueil/Accueil.scss";
 // Page d'accueil du site
 const Index = (props) => {
-
-
   return (
     <Base>
       <main>
+        {/*  Image de bienvenue  */}
         <Bandeau />
+        {/*  Carte de présentation de ma personne */}
         <Card
           titre="Présentation"
           couleur="vert"
@@ -36,10 +38,7 @@ const Index = (props) => {
           lien="/realisation"
           nomLien="Présentation Détaillé"
         />
-        {/*  Carte de présentation de ma personne */}
-        <section className="">
-
-        </section>
+        <Sun />
         <Card
           titre="L'Agence"
           couleur="rouge"
@@ -60,6 +59,36 @@ const Index = (props) => {
           lien="/realisation"
           nomLien="Présentation Détaillé"
         />
+        <section className="philo">
+          <h2 className="philo__titre">L'art d'apprendre</h2>
+          <p className="philo__para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus, beatae itaque facere rem iure quo sed optio laudantium
+            numquam mollitia aliquid molestiae? Quis corporis suscipit iusto
+            aspernatur enim quo voluptates.
+          </p>
+        </section>
+        <section className="veille">
+          <h2 className="veille__titre">
+            Des articles vous attentent pour comprendre le monde de
+            l’informatique
+          </h2>
+          <Link to="/veille" className="veille__bouton">
+            Vers la veille
+          </Link>
+        </section>
+        <section className="contact">
+          <h2 className="contact__titre">Contact</h2>
+          <p className="contact__para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus, beatae itaque facere rem iure quo sed optio laudantium
+            numquam mollitia aliquid molestiae? Quis corporis suscipit iusto
+            aspernatur enim quo voluptates.
+          </p>
+          <Link to="/veille" className="veille__bouton">
+            Vers la veille
+          </Link>
+        </section>
       </main>
     </Base>
   );
