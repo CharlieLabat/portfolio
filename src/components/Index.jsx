@@ -85,8 +85,8 @@ const Index = (props) => {
             numquam mollitia aliquid molestiae? Quis corporis suscipit iusto
             aspernatur enim quo voluptates.
           </p>
-          <Link to="/veille" className="veille__bouton">
-            Vers la veille
+          <Link to="/contact" className="contact__bouton">
+            Vers les contacts
           </Link>
         </section>
       </main>
