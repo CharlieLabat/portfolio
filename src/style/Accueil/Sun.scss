@@ -1,1 +1,127 @@
 @use "../Couleur";
+
+.sun {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  background-image: url("../../assets/images/fondColore.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 50vh;
+  height: 50vh;
+  &__titres {
+    display: flex;
+    position: relative;
+    top: -10vw;
+    gap: 50vw;
+  }
+  &__titre {
+    font-size: 2.4rem;
+    color: Couleur.$police-sombre;
+   
+  }
+  &__image {
+    margin-bottom: 4rem;
+    gap: 2rem;
+  }
+  &__description {
+    opacity: 1;
+    max-width: 50vw;
+    text-align: center;
+    gap: 2rem;
+    font-family: 'Fira Code', sans-serif;
+    background-color: Couleur.$fond-sombre;
+    color: Couleur.$principal;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+  &__desc-titre {
+    font-size: 2.4rem;
+    color: Couleur.$lien-bouton;
+    font-family: 'Oswald', sans-serif;
+  }
+  &__desc-texte {
+    font-size: 1.6rem;
+  }
+  &__mot-cle {
+    display: flex;
+    gap: 4rem;
+  }
+}
+.mots {
+  position: relative;
+  bottom: 5vh;
+}
+
+.mot {
+  font-size: 1.4rem;
+  color: Couleur.$lien-bouton;
+  background-color: Couleur.$fond-clair;
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: fit-content;
+  //Partie Soft Skill
+  &--s1 {
+    animation: mouvementDemiCircleG1 8s infinite linear;
+  }
+  &--s2 {
+    animation: mouvementDemiCircleG1 6.5s infinite linear;
+  }
+  &--s3 {
+    animation: mouvementDemiCircleG1 6s infinite linear;
+  }
+  &--s4 {
+    animation: mouvementDemiCircleG1 8.5s infinite linear;
+  }
+  &--s5 {
+    animation: mouvementDemiCircleG1 7s infinite linear;
+  }
+  &--s6 {
+    animation: mouvementDemiCircleG1 7.5s infinite linear;
+  }
+  //Partie Hard Skill
+  &--h1 {
+    animation: mouvementDemiCircleD1 8s infinite linear;
+  }
+  &--h2 {
+    animation: mouvementDemiCircleD1 6.5s infinite linear;
+  }
+  &--h3 {
+    animation: mouvementDemiCircleD1 6s infinite linear;
+  }
+  &--h4 {
+    animation: mouvementDemiCircleD1 8.5s infinite linear;
+  }
+  &--h5 {
+    animation: mouvementDemiCircleD1 7s infinite linear;
+  }
+  &--h6 {
+    animation: mouvementDemiCircleD1 7.5s infinite linear;
+  }
+}
+
+@keyframes mouvementDemiCircleG1 {
+  0% {
+    transform: rotate(0deg) translateY(30vw) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(180deg) translateY(25vw) rotate(-180deg);
+  }
+}
+@keyframes mouvementDemiCircleD1 {
+  0% {
+    transform: rotate(0deg) translateY(30vw) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-180deg) translateY(25vw) rotate(180deg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sun {
+  }
+}

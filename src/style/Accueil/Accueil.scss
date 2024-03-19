@@ -5,19 +5,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
     &__titre{
         font-size: 2.4rem;
         font-family: 'Oswald', sans-serif;
-        margin-bottom: 2rem;
+   
         background-color: Couleur.$fond-sombre;
         color: Couleur.$principal;
         padding: 1rem;
         border-radius: 10px;
     }
     &__para{
+        text-align: center;
+        color: Couleur.$principal;
         background-color: Couleur.$fond-section;
         font-size: 1.8rem;
         padding: 2rem;
+        line-height: 2.5rem;
     }
 }
 .veille{
@@ -56,6 +60,8 @@
         font-size: 2.4rem;
     }
     &__para{
+        text-align: center;
+        color: Couleur.$principal;
         font-size: 1.8rem;
     }
     &__bouton{
@@ -66,5 +72,51 @@
         border-style: solid;
         font-family: 'Oswald', sans-serif;
         font-size: 2.4rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .philo{
+        gap: 4rem;
+        &__titre{
+            font-size: 4rem;
+        
+        }
+        &__para{
+      
+            font-size: 2.4rem;
+   
+        }
+    }
+    .veille{
+   
+        gap: 4rem;
+        &__titre{
+         
+            font-size: 4.0rem;
+    
+        }
+        &__bouton{
+       
+            font-size: 2.8rem;
+       
+        }
+    
+    }
+    .contact{
+      
+        gap: 4rem;
+        &__titre{
+          
+            font-size: 4.0rem;
+        }
+        &__para{
+         
+            font-size: 2.4rem;
+        }
+        &__bouton{
+         
+            font-size: 2.8rem;
+        }
     }
 }
