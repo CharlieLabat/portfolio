@@ -16,6 +16,7 @@ const App = () => {
         {/* Dans l'ordre : Accueil, 404  */}
         <Route path="/" element={<Index />} index /> 
         <Route path="*" element={<NotFound />} />
+        
 
       </Routes>
 

@@ -6,6 +6,7 @@ import Footer from "./Footer/Footer";
 // Modèle de la structure des pages du site
 const Base = (props) => {
   return (
+    
     <>
       <Header />
       {props.children}

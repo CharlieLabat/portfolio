@@ -35,7 +35,7 @@ const Index = (props) => {
           mais aussi de la veille informatique notamment sur du développement Web.
            Vous pouvez aussi me contacter et si vous voulez savoir plus sur moi, 
            j’ai écrit une version plus longue : "
-          lien="/realisation"
+          lien="/presentation"
           nomLien="Présentation Détaillé"
         />
         <Sun />

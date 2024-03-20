@@ -22,7 +22,7 @@ const Header = () => {
       {/* Est que le burger est active ? Oui, on afficher le burger sinon le menu desktop */}
       {!burger && (
         <nav className="menu"> 
-          <Link to="/" className="menu__element">
+          <Link to="/" className="menu__element" >
             Accueil   {/* Page principal du site avec les informations essentielles */}
           </Link>
           <Link to="/realisation" className="menu__element">

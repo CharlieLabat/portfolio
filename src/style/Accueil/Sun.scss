@@ -48,11 +48,12 @@
   &__mot-cle {
     display: flex;
     gap: 4rem;
+    position: relative;
+    bottom: 5vh;
   }
 }
 .mots {
-  position: relative;
-  bottom: 5vh;
+  text-align: center;
 }
 
 .mot {
@@ -62,66 +63,114 @@
   padding: 0.5rem;
   border-radius: 5px;
   width: fit-content;
+
+
   //Partie Soft Skill
   &--s1 {
-    animation: mouvementDemiCircleG1 8s infinite linear;
+    animation: mouvementDemiCircleG1 18s infinite linear;
   }
   &--s2 {
-    animation: mouvementDemiCircleG1 6.5s infinite linear;
+    animation: mouvementDemiCircleG1 16.5s infinite linear;
   }
   &--s3 {
-    animation: mouvementDemiCircleG1 6s infinite linear;
+    animation: mouvementDemiCircleG1 16s infinite linear;
   }
   &--s4 {
-    animation: mouvementDemiCircleG1 8.5s infinite linear;
+    animation: mouvementDemiCircleG1 18.5s infinite linear;
   }
   &--s5 {
-    animation: mouvementDemiCircleG1 7s infinite linear;
+    animation: mouvementDemiCircleG1 17s infinite linear;
   }
   &--s6 {
-    animation: mouvementDemiCircleG1 7.5s infinite linear;
+    animation: mouvementDemiCircleG1 17.5s infinite linear;
   }
   //Partie Hard Skill
   &--h1 {
-    animation: mouvementDemiCircleD1 8s infinite linear;
+    animation: mouvementDemiCircleD1 18s infinite linear;
   }
   &--h2 {
-    animation: mouvementDemiCircleD1 6.5s infinite linear;
+    animation: mouvementDemiCircleD1 16.5s infinite linear;
   }
   &--h3 {
-    animation: mouvementDemiCircleD1 6s infinite linear;
+    animation: mouvementDemiCircleD1 16s infinite linear;
   }
   &--h4 {
-    animation: mouvementDemiCircleD1 8.5s infinite linear;
+    animation: mouvementDemiCircleD1 18.5s infinite linear;
   }
   &--h5 {
-    animation: mouvementDemiCircleD1 7s infinite linear;
+    animation: mouvementDemiCircleD1 17s infinite linear;
   }
   &--h6 {
-    animation: mouvementDemiCircleD1 7.5s infinite linear;
+    animation: mouvementDemiCircleD1 17.5s infinite linear;
   }
 }
 
 @keyframes mouvementDemiCircleG1 {
   0% {
-    transform: rotate(0deg) translateY(30vw) rotate(0deg);
+    transform: rotate(0deg) translateY(25vw) rotate(0deg);
   }
 
   100% {
-    transform: rotate(180deg) translateY(25vw) rotate(-180deg);
+    transform: rotate(180deg) translateY(20vw) rotate(-180deg);
   }
 }
 @keyframes mouvementDemiCircleD1 {
   0% {
-    transform: rotate(0deg) translateY(30vw) rotate(0deg);
+    transform: rotate(0deg) translateY(25vw) rotate(0deg);
   }
 
   100% {
-    transform: rotate(-180deg) translateY(25vw) rotate(180deg);
+    transform: rotate(-180deg) translateY(20vw) rotate(180deg);
   }
 }
 
 @media screen and (min-width: 1024px) {
   .sun {
+    &__titres {
+      top: -5vw;
+    }
+    &__titre{
+      font-size: 3.6rem;
+    }
+    &__description{
+      max-width: 25vw;
+
+    }
+    &__mot-cle {
+      bottom: 6.5vw;
+    }
+
+    &__desc-titre {
+      font-size: 3rem;
+    }
+    &__desc-texte {
+    font-size: 2rem
+    }
   }
+ 
+
+  @keyframes mouvementDemiCircleG1 {
+    0% {
+      transform: rotate(0deg) translateY(10vw) rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(180deg) translateY(5vw) rotate(-180deg);
+    }
+  }
+  @keyframes mouvementDemiCircleD1 {
+    0% {
+      transform: rotate(0deg) translateY(10vw) rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(-180deg) translateY(5vw) rotate(180deg);
+    }
+  }
+  .mot{
+    font-size: 1.8rem;
+  }
+
+
+
 }

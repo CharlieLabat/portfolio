@@ -12,16 +12,16 @@ const Burger = () => {
 
 
       <nav className="menu-burger">
-        <Link to="/" className="menu-burger__element">
+        <Link to="/" className="menu-burger__element" reloadDocument>
           Accueil  {/* Page principal du site avec les informations essentielles */}
         </Link>
-        <Link to="/realisation" className="menu__element">
+        <Link to="/realisation" className="menu-burger__element" reloadDocument>
           Réalisation {/* Page des projets réalisés durant mes études et mes (futurs) travaux */}
         </Link>
-        <Link to="/veille" className="menu__element">
+        <Link to="/veille" className="menu-burger__element" reloadDocument>
           Veille {/* Page des information et actualités que je trouve pour me mettre à jour */}
         </Link>
-        <Link to="/contact" className="menu__element">
+        <Link to="/contact" className="menu-burger__element" reloadDocument>
           Contact {/* Page de contact */}
         </Link>
       </nav>
