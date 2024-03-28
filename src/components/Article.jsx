@@ -1,7 +1,8 @@
 // Element React (Base)
 import React from "react";
 // Style
-import "../style/.scss";
+import "../style/Article.scss";
+
 
 // Un Article est une Grand Card avec 3 groupe d'un texte et d'une image ainsi une conclusion avec sources
 // Elle dépend du contenu gérer en JSON ou en dur et sert comme modèle aux pages d'article
@@ -16,25 +17,29 @@ const Article = (props) => {
         <div className="article__partie">
           <figure className="article__image">
             <img src={props.image1} alt={props.nomImage1} />
+            <figcaption className={"article__legende article__legende--" + props.couleur}>{props.legende1}</figcaption>
           </figure>
           <p className="article__texte">{props.texte1}</p>
         </div>
         <div className="article__partie article__partie--inverse">
           <figure className="article__image">
             <img src={props.image2} alt={props.nomImage2} />
+            <figcaption className={"article__legende article__legende--" + props.couleur}>{props.legende2}</figcaption>
           </figure>
           <p className="article__texte">{props.texte2}</p>
         </div>
         <div className="article__partie">
           <figure className="article__image">
             <img src={props.image3} alt={props.nomImage3} />
+            <figcaption className={"article__legende article__legende--" + props.couleur}>{props.legende3}</figcaption>
           </figure>
           <p className="article__texte">{props.texte3}</p>
         </div>
       </article>
-      <section className="">
+      <section className="article__fin">
+        <h2 className="article__fin-titre">Conclusion</h2>
         <p className="article__conclusion">{props.conclusion}</p>
-        <div>
+        <div className="article__sources">
           <a href={props.source1} className="article__source">
             {props.sourceNom1}
           </a>

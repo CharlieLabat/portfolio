@@ -1,0 +1,121 @@
+@use "./Couleur";
+
+.article {
+  margin-top: 2rem;
+  &__titre {
+    font-size: 2.4rem;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    color: Couleur.$police-sombre;
+    &--rouge {
+      &::after {
+        content: "";
+        width: 400px;
+        height: 200px;
+        background-color: Couleur.$fond-clair;
+      }
+    }
+    &--vert {
+      &::after {
+        content: "";
+        width: 400px;
+        height: 200px;
+        background-color: Couleur.$fond-sombre;
+      }
+    }
+  }
+  &__zone {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+
+    &--rouge {
+      background-color: Couleur.$fond-clair;
+    }
+    &--vert {
+      background-color: Couleur.$fond-sombre;
+    }
+  }
+  &__partie {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  &__image {
+    width: 100%;
+    height: inherit;
+  }
+  &__legende {
+    font-size: 1.4rem;
+    padding: 1rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: Couleur.$principal;
+    text-align: center;
+    &--rouge {
+      background-color: Couleur.$fond-sombre;
+    }
+    &--vert {
+      background-color: Couleur.$fond-clair;
+    }
+  }
+  &__texte {
+    color: Couleur.$principal;
+    font-size: 1.6rem;
+  }
+  &__fin-titre {
+    font-size: 2.4rem;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 2rem;
+    color: Couleur.$principal;
+  }
+  &__fin {
+    background-color: Couleur.$fond-section;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 2rem;
+  }
+  &__conclusion {
+    color: Couleur.$principal;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+  &__sources {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .article {
+    &__titre {
+      font-size: 3.6rem;
+    }
+    &__partie {
+      flex-direction: row;
+      &--inverse {
+        flex-direction: row-reverse;
+      }
+    }
+    &__image {
+      width: 55vw;
+    }
+
+    &__texte {
+      font-size: 2.2rem;
+    }
+    &__fin-titre {
+      font-size: 3.6rem;
+    }
+    &__conclusion {
+      font-size: 2.2rem;
+    }
+  }
+}
