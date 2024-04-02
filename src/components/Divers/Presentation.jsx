@@ -26,8 +26,8 @@ const Presentation = () => {
         source2=""
         source3=""
         sourceNom1="Projet de jeu d'aventure textuelle : SlackDeb Aventure "
-        sourceNom2="LinkedIn "
-        sourceNom3=""
+        sourceNom2="LinkedIn"
+        sourceNom3="Hypacosmos : Projet Client en LP MIAW"
       />
     </Base>
   );

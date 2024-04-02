@@ -1,14 +1,14 @@
 import React from "react";
 import Liste from "../Liste";
 import Base from "../base/Base";
-import dataVeille from "../../data/veille.json"
+import Veille from "../../data/veille.json";
 
 const ListeVeille = () => {
   return (
     <Base>
-      <Liste donnee={dataVeille} />
+      <Liste donnee={Veille} titreListe="Veille" />
     </Base>
   );
 };
 
-export default ListeVeille
+export default ListeVeille;

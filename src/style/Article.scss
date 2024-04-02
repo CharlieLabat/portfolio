@@ -10,18 +10,25 @@
     color: Couleur.$police-sombre;
     &--rouge {
       &::after {
+        margin-top: 1rem;
+        display: block;
         content: "";
-        width: 400px;
-        height: 200px;
-        background-color: Couleur.$fond-clair;
+        width: 50px;
+        height: 15px;
+        border-radius: 5px;
+        background-color: Couleur.$fond-section;
+   
       }
     }
     &--vert {
       &::after {
+        margin-top: 1rem;
+        display: block;
         content: "";
-        width: 400px;
-        height: 200px;
-        background-color: Couleur.$fond-sombre;
+        width: 50px;
+        height: 15px;
+        border-radius: 5px;
+        background-color: Couleur.$lien-bouton;
       }
     }
   }
@@ -105,17 +112,17 @@
       }
     }
     &__image {
-      width: 55vw;
+      width: 75vw;
     }
 
     &__texte {
-      font-size: 2.2rem;
+      font-size: 1.8rem;
     }
     &__fin-titre {
       font-size: 3.6rem;
     }
     &__conclusion {
-      font-size: 2.2rem;
+      font-size: 2.0rem;
     }
   }
 }

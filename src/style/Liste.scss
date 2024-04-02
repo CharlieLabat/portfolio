@@ -1,0 +1,12 @@
+@use "Couleur";
+
+.liste{
+    margin-top: 2rem;
+    &__titre{
+        text-align: center;
+        font-family: "Oswald", sans-serif;
+        color: Couleur.$police-sombre;
+        font-size: 5.0rem;
+        margin-bottom: 2rem;
+    }
+}
