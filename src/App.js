@@ -11,6 +11,8 @@ import "./style/Reset.scss"; // Permet de s'affranchir de tout style des navigat
 import "./style/Base.scss"; // Permet de standardiser le style général 
 import Contact from "./components/Contact";
 import Presentation from "./components/Divers/Presentation";
+import ArticleRealisation from "./components/Realisation/ArticleRealisation";
+import ArticleVeille from "./components/Veille/ArticleVeille";
 
 // Le site
 const App = () => {
@@ -22,7 +24,9 @@ const App = () => {
         <Route path="/" element={<Index />} index /> 
         <Route path="*" element={<NotFound />} />
         <Route path="/realisation" element={<ListeRealisation />} />
+        <Route path="/realisation/:id" element={<ArticleRealisation />} />
         <Route path="/veille" element={<ListeVeille />} />
+        <Route path="/veille/:id" element={<ArticleVeille />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/presentation" element={<Presentation />} />
         

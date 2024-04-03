@@ -126,8 +126,9 @@
 
 @media screen and (min-width: 1024px) {
   .sun {
+    height: 80vh;
     &__titres {
-      top: -5vw;
+      top: -7.5vw;
     }
     &__titre{
       font-size: 3.6rem;

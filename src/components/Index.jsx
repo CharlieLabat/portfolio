@@ -47,13 +47,16 @@ const Index = (props) => {
           texte1="Durant la formation de la Licence Pro MIAW de la Rochelle, nous avons formé des agences éphemaires Web. Mon équipe s'appelait ModerniWeb 
           et était composés de moi, évidament, de Joran Vanpenee et de Younes Lebratmi comme développeurs et de Zak Manguet comme designer & intègrateur. 
           Nous avons commencé en Octobre 2023 et terminé en Avril 2024."
-          texte2="Notre 1er projet était le site d'agence. Par sa philosophie "
-          texte3="Sur ce portfolio, vous allez trouver des articles sur mes réalisation 
-          mais aussi de la veille informatique notamment sur du développement Web.
-           Vous pouvez aussi me contacter et si vous voulez savoir plus sur moi, 
-           j’ai écrit une version plus longue : "
+          texte2="Notre 1er projet était le site d'agence. Par sa philosophie flexible, 
+          nous avons ReactJS, une bibiothèque pour Javascript de Méta (Facebook). Nous avons faut la maquette 
+          fin 2023 et nous avons développé en décembre. Pour le site du client, nous devons réaliser un nouvelle version 
+          du site. Le sujet du site était sur une méthode d'apprentisage entre les langues latines et le chinois appelée HYPA. Elle 
+          consiste en une série de geste qui traduit les caractère des deux langues. Nous avons fait le design en même temps que le site d'agence 
+          mais nous avons développé qu'en Mars 2024. La technologie utilisé pour le site est Symfony, un framework MVC en PHP pour ses fonctionalité
+           et c'est aussi utilisé par la 1er version du site.   "
+          texte3="Si vous voulez savoir plus sur tous les travaux d'informatique, je publie des articles sur mon portfolio après ce lien : "
           lien="/realisation"
-          nomLien="Présentation Détaillé"
+          nomLien="Réalisations"
         />
         <section className="philo">
           <h2 className="philo__titre">L'art d'apprendre</h2>

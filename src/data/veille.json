@@ -3,7 +3,7 @@
       {
         "id": 0,
         "titre": "HyperText Markup Language (HTML) : le standard des hypertextes ! ",
-        "route": "veille/0",
+        "route": "./0",
         "nomRoute": "Article sur l'HTML",
         "couleur" : "rouge",
         "textes": ["Bla", "bi", "bo"],
@@ -12,13 +12,13 @@
         "legendes" : ["","",""],
         "conclusion" : "",
         "sources": ["", "", ""],
-        "sourceImages" : ["", "", ""]
+        "sourcesNom" : ["", "", ""]
       },
       {
         "id": 1,
         "titre": "Cascading Style Sheet (CSS) : Comment styliser le Web ?",
-        "route": "veille/0",
-        "nomRoute": "Article sur l'HTML",
+        "route": "./1",
+        "nomRoute": "Article sur le CSS",
         "couleur" : "vert",
         "textes": ["Bla", "bi", "bo"],
         "images": ["", "", ""],
@@ -26,7 +26,7 @@
         "legendes" : ["","",""],
         "conclusion" : "",
         "sources": ["", "", ""],
-        "sourceImages" : ["", "", ""]
+        "sourcesNom" : ["", "", ""]
       }
     ]
   }

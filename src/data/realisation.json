@@ -3,7 +3,7 @@
     {
       "id": 0,
       "titre": "ModerniWeb : Site d'agence en LP MIAW (La Rochelle)",
-      "route": "realisation/0",
+      "route": "./0",
       "nomRoute": "Article sur ModerniWeb",
       "couleur" : "rouge",
       "textes": ["Bla", "bi", "bo"],
@@ -12,13 +12,13 @@
       "legendes" : ["","",""],
       "conclusion" : "",
       "sources": ["", "", ""],
-      "sourceImages" : ["", "", ""]
+      "sourcesNom" : ["", "", ""]
       
     },
     {
       "id": 1,
       "titre": "HYPACosmos : Site d'une nouvelle méthode de langage !",
-      "route": "realisation/1",
+      "route": "./1",
       "nomRoute": "",
       "couleur" : "vert",
       "textes": ["", "", ""],
@@ -27,7 +27,7 @@
       "legendes" : ["","",""],
       "conclusion" : "",
       "sources": ["", "", ""],
-      "sourceImages" : ["", "", ""]
+      "sourcesNom" : ["", "", ""]
     }
   ]
 }
