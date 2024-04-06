@@ -1,0 +1,89 @@
+@use "Couleur";
+
+.contact-page{
+    margin-bottom: 2rem;
+    &__titre{
+        font-size: 2.8rem;
+        font-family: "Oswald", sens-serif;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        color:  Couleur.$police-sombre;
+    }
+    &__zone{
+      
+        display: flex;
+        flex-direction: column;
+        background-color: Couleur.$fond-section;
+        padding: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        border-radius: 5px;
+
+        color: Couleur.$principal;
+    }
+  
+    &__texte{
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    &__infos{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    &__formulaire{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        gap: 1rem;
+    }
+    &__label{
+        font-size: 2.2rem;
+    }
+    &__element{
+        font-family: "Fira Code", sens-serif;
+        padding: 0.5rem;
+        border-radius: 10px;
+        border-style: none;
+        font-size: 1.8rem;
+        background-color: Couleur.$fond-clair;
+        color: Couleur.$police-sombre;
+        &--texte{
+            height: 20vh;
+            resize: none;
+        }
+       &:focus{
+        outline:  none;
+       }
+    }
+    &__button{
+        background-color: Couleur.$fond-sombre;
+        border-radius: 10px;
+        border-color: Couleur.$lien-bouton;
+        font-size: 2.4rem;
+        padding: 0.5rem;
+        color: Couleur.$lien-bouton;
+        font-family: "Oswald", sens-serif;
+        border-style: solid;
+        border-width: 3px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .contact-page{
+        &__zone{
+            flex-direction: row;
+        }
+        &__sous-zone{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+}

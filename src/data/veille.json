@@ -1,33 +1,36 @@
 {
-    "elements": [
-      {
-        "id": 0,
-        "titre": "HyperText Markup Language (HTML) : le standard des hypertextes ! ",
-        "route": "./0",
-        "nomRoute": "Article sur l'HTML",
-        "couleur" : "rouge",
-        "textes": ["Bla", "bi", "bo"],
-        "images": ["", "", ""],
-        "nomImages" : ["", "", ""],
-        "legendes" : ["","",""],
-        "conclusion" : "",
-        "sources": ["", "", ""],
-        "sourcesNom" : ["", "", ""]
-      },
-      {
-        "id": 1,
-        "titre": "Cascading Style Sheet (CSS) : Comment styliser le Web ?",
-        "route": "./1",
-        "nomRoute": "Article sur le CSS",
-        "couleur" : "vert",
-        "textes": ["Bla", "bi", "bo"],
-        "images": ["", "", ""],
-        "nomImages" : ["", "", ""],
-        "legendes" : ["","",""],
-        "conclusion" : "",
-        "sources": ["", "", ""],
-        "sourcesNom" : ["", "", ""]
-      }
-    ]
-  }
-  
+  "elements": [
+    {
+      "id": 0,
+      "titre": "HyperText Markup Language (HTML) : le standard des hypertextes ! ",
+      "route": "./0",
+      "nomRoute": "Article sur l'HTML",
+      "couleur": "rouge",
+      "textes": [
+        "Le 'HyperText Markup Language' ou le langage à balise en hypertexte est un langage de description qui permet écrire des pages Web. C'est au début des années 1990 que Tim Berner-Lee commence à créer un système pour Internet créé dans les années 60 mais devenu publique à ce moment. ",
+        "Il se demande comment écrire un standard pour des textes distant entre deux ordinateurs. Il s’inspire des langages à balises dont le XML qui l'accompagne l'HTML dans sa conception. Le langage se compose une en-tête de méta-données (head) et un corps (body). Les balises sont entre chevrons (<>) et contient le nom que le navigateur interprète selon son sens et des propriétés ou attributes pour varier l'élément. ",
+        "L'HTML est aujourd'hui à sa version 5 avec des éléments directement pris de XML. Les développeurs Web l'utilisent toujours pour le Web directement ou bien par les frameworks & bibliothèques Web. "
+      ],
+      "images": ["PhotoLogoHTML.png", "", ""],
+      "nomImages": ["Logo d'HTML", "Extrait des 1re balises en HTML", "Photo de Tim Berner-Lee"],
+      "legendes": ["Le logo du langage", "Les balises en HTML1 ! Le minimal...", "Tim Berner-Lee, le créateur de la Toile (C'est un homme, pour info)"],
+      "conclusion": "Avec ce langage, Tim Berner-Lee gagne son pari sur la façon d'écrire le Web. Par son système de balise, les développeurs Web ont pu créer des pages à Chicago pour Mexico ou Paris pour Berlin. Si cela n'existe, le Web aurai une construction différente. ",
+      "sources": ["https://info.cern.ch/", "https://developer.mozilla.org/fr/docs/Web/HTML", "https://html.spec.whatwg.org/multipage/"],
+      "sourcesNom": ["La version 1 du site du CERN, démo de l'HTML des débuts", "La documentation Mozilla pour le langage, une ressource riche", "Un site en anglais sur l'ensemble des détails de l'HTML"]
+    },
+    {
+      "id": 1,
+      "titre": "Cascading Style Sheet (CSS) : Comment styliser le Web ?",
+      "route": "./1",
+      "nomRoute": "Article sur le CSS",
+      "couleur": "vert",
+      "textes": ["Bla", "bi", "bo"],
+      "images": ["", "", ""],
+      "nomImages": ["", "", ""],
+      "legendes": ["", "", ""],
+      "conclusion": "",
+      "sources": ["", "", ""],
+      "sourcesNom": ["", "", ""]
+    }
+  ]
+}
