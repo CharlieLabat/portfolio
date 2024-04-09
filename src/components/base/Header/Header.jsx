@@ -1,5 +1,5 @@
 // Element React (Base, Hooks, Router)
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 // Element SVG (Logo et Burger)
 import IconBurger from "../../../assets/images/Icone Burger.svg";
