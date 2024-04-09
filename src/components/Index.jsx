@@ -7,6 +7,7 @@ import Card from "./Card";
 import Sun from "./Accueil/Sun";
 // Element Image
 import APropos from "../assets/images/photoAPropos.JPG";
+// React Router
 import { Link } from "react-router-dom";
 // Style 
 import "../style/Accueil/Accueil.scss";
@@ -30,8 +31,8 @@ const Index = (props) => {
           texte2="J’aime l’histoire, les maths et la musique. 
           J’ai fait des années de théâtre et un peu de tuba et du trombone à coulisse mais surtout du chant. En BTS,
           j’ai codé des projets ou étudié des langages comme l’HTML et le CCS, 
-          PHP dont du Laravel , du Symfony, du Wordpress ou du MVC, Javascript avec ReactJS et VueJS et Java. J’ai le Bac et le BTS SIO."
-          texte3="Sur ce portfolio, vous allez trouver des articles sur mes réalisation 
+          PHP dont du Laravel , du Symfony, du Wordpress ou du MVC, Javascript avec ReactJS et VueJS ainsi que Java. J’ai le Bac et le BTS SIO."
+          texte3="Sur ce portfolio, vous allez trouver des articles sur mes réalisations 
           mais aussi de la veille informatique notamment sur du développement Web.
            Vous pouvez aussi me contacter et si vous voulez savoir plus sur moi, 
            j’ai écrit une version plus longue : "
@@ -43,7 +44,7 @@ const Index = (props) => {
           titre="L'Agence"
           couleur="rouge"
           image={APropos}
-          nomImage="Ensemble des membres de MorderniWeb"
+          nomImage="Ensemble des membres de ModerniWeb"
           texte1="Durant la formation de la Licence Pro MIAW de la Rochelle, nous avons formé des agences éphemaires Web. Mon équipe s'appelait ModerniWeb 
           et était composés de moi, évidament, de Joran Vanpenee et de Younes Lebratmi comme développeurs et de Zak Manguet comme designer & intègrateur. 
           Nous avons commencé en Octobre 2023 et terminé en Avril 2024."

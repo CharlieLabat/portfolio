@@ -25,7 +25,7 @@ const Contact = () => {
   return (
     <Base>
       <section className="contact-page">
-        <h2 className="contact-page__titre">Contact</h2>
+        <h1 className="contact-page__titre">Contact</h1>
         <div className="contact-page__zone">
           <div className="contact-page__sous-zone">
           <p className="contact-page__texte">

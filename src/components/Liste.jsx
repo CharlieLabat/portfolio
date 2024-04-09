@@ -9,7 +9,7 @@ const Liste = (props) => {
 
   return (
     <section className="liste">
-        <h2 className="liste__titre">{props.titreListe}</h2>
+        <h1 className="liste__titre">{props.titreListe}</h1>
       {props.donnee.elements.map((element) => {
         return props.donnee ? <Card titre={element.titre}
         couleur={element.couleur}

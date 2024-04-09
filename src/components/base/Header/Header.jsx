@@ -3,24 +3,19 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 // Element SVG (Logo et Burger)
 import IconBurger from "../../../assets/images/Icone Burger.svg";
-import IconBurgerBis from "../../../assets/images/Icone Burger 2.svg";
+
 import Logo from "../../../assets/images/logo.svg";
 // Style
 import "../../../style/Header/Header.scss";
-// Composant Secondaire
-import Burger from "./Burger";
+
 // En tête du site
-const Header = () => {
-  // Vérifie si le burger est cliqué
-  const [burger, setBurger] = useState(false);
-  const activerBurger = () => {
-    return setBurger(!burger);
-  };
+const Header = (props) => {
+
 
   return (
     <header className="tete">
       {/* Est que le burger est active ? Oui, on afficher le burger sinon le menu desktop */}
-      {!burger && (
+      {!props.burger && (
         <nav className="menu">
           <Link to="/" className="menu__element">
             Accueil{" "}
@@ -44,17 +39,15 @@ const Header = () => {
           </Link>
         </nav>
       )}
-      {!burger && (
+      {!props.burger && (
         <figure
           className="burger"
-          onClick={() => {
-            activerBurger();
-          }}
+          onClick={props.activation}
         >
-          <img src={!burger ? IconBurger : IconBurgerBis} alt="burger" />
+          <img src={IconBurger}  alt="burger" />
         </figure>
       )}
-      {burger && <Burger />}
+  
     </header>
   );
 };

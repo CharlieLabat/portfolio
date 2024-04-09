@@ -1,6 +1,11 @@
 @use "../Couleur";
 
 .burger{
+    &__ferme{
+        position: absolute;
+        right: 4vw;
+        top: 4vh;
+    }
     &__ouvert{
         display: flex;
         flex-direction: column;
@@ -8,6 +13,7 @@
         height: 100vh;
     }
     &__titre{
+        margin-top: 8rem;
         font-family: 'Oswald' sans-serif;
         text-align: center;
         font-size: 3.4rem;

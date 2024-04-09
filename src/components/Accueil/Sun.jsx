@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 // Style
 import "../../style/Accueil/Sun.scss";
+import SunImage from "../../assets/images/charlie.png"
 // Sorte de soleil avec des mot clés qui tourne en demi cercle
 // avec moi même au centre. L'animation de parcours des mots et l'affichage
 // de la compétence se feront en CSS/JS
@@ -88,7 +89,7 @@ const Sun = () => {
         <p className="sun__titre">HARD</p>
       </span>
       <figure className="sun__image">
-        <img src="" alt="Centre" />
+        <img src={SunImage} alt="Centre" />
         {visible && (
           <figcaption className="sun__description">
             <span className="sun__desc-titre">{description.nom}</span>

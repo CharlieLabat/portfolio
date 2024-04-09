@@ -10,9 +10,9 @@ import "../style/Article.scss";
 const Article = (props) => {
   return (
     <section className="article">
-      <h2 className={"article__titre article__titre--" + props.couleur}>
+      <h1 className={"article__titre article__titre--" + props.couleur}>
         {props.titre}
-      </h2>
+      </h1>
       <article className={"article__zone article__zone--" + props.couleur}>
         <div className="article__partie">
           <figure className="article__image">

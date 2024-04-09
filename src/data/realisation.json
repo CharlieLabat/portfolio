@@ -9,36 +9,22 @@
       "textes": [
         "Moderniweb est une agence Web éphémère créé pour la licence pro MIAW de la Rochelle. On avait un 1er nom qui était déjà pris par une autre marque. Donc, on a pris le mot 'Moderne' et 'Web' et... ModerniWeb ! Le groupe s'est formé naturellement, j'ai rejoint après une proposition de Younes.",
         "Nous avons réalisé deux sites : le nôtre, avec comme technologie ReactJS et de la 3D avec ce bon Blobby le Blob de notre logo et le site client, HYPACosmos, une plateforme de cours pour la méthode HYPA, une technique linguistique pour apprendre le chinois avec des gestes.",
-        "Nous sommes fiers de notre site d'agence. La page unique fonctionne bien, les sections comme la galerie ou les tarifs sont pas mal pour notre niveau. La dominant du violet donne le ton moderne au site et l'utilisation de React JS est cohérente."
+        "Nous sommes fiers de notre site d'agence. La page unique fonctionne bien, les sections comme la galerie ou les tarifs sont pas mal pour notre niveau. La dominant du violet donne le ton moderne au site et l'utilisation de React JS est cohérente. "
       ],
-      "images": ["", "", ""],
+      "images": ["../assets/images/MWLogo.png", "../assets/images/MWSite.png", "../assets/images/MWGoogleRef.png"],
       "nomImages": [
-        "Membres de l'équipe",
+        "Logo du Site",
         "Site Web de l'agence",
         "Recherche de 'ModerniWeb' sur Google"
       ],
       "legendes": [
-        "Voila D'Aragant et ses trois mousquetaires du Web !",
-        "Le site d'agence, avec son sympatique Blobby !",
+        "Logo du site Web d'agence Web",
+        "Le site d'agence, avec son sympathique Blobby !",
         "On est même référencé ! (Salut Joran !) "
       ],
       "conclusion": "Avec cette agence, j'ai appris à travailler en équipe avec un vrai contexte de travail. J'ai appris à affronter les problèmes comme à célébrer les victoires sur le code. ",
-      "sources": ["", "", ""],
+      "sources": ["https://agence-moderniweb.lpmiaw.univ-lr.fr/", "", ""],
       "sourcesNom": ["Site de l'agence", "", ""]
-    },
-    {
-      "id": 1,
-      "titre": "HYPACosmos : Site d'une nouvelle méthode de langage !",
-      "route": "./1",
-      "nomRoute": "",
-      "couleur": "vert",
-      "textes": ["", "", ""],
-      "images": ["", "", ""],
-      "nomImages": ["", "", ""],
-      "legendes": ["", "", ""],
-      "conclusion": "",
-      "sources": ["", "", ""],
-      "sourcesNom": ["", "", ""]
     }
   ]
 }

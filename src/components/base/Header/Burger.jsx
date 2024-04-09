@@ -3,11 +3,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 // Style
 import "../../../style/Header/Burger.scss"
+import IconBurgerBis from "../../../assets/images/Icone Burger 2.svg";
 // Menu Burger : Menu caché qui s'affiche en mobile et via par un élément clickable 
-const Burger = () => {
+const Burger = (props) => {
   return (
     <section className="burger__ouvert">
-        
+              <figure
+          className="burger__ferme"
+          onClick={props.activation}
+        >
+          <img src={IconBurgerBis}  alt="burger" />
+        </figure>
       <h2 className="burger__titre">MENU</h2>
 
 
