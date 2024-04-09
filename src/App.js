@@ -18,7 +18,7 @@ import ArticleVeille from "./components/Veille/ArticleVeille";
 const App = () => {
   return (
 // Router Front-end pour diviser en page
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio">
       <Routes>
         {/* Dans l'ordre : Accueil, 404, Liste des réalisations, Liste de la veille, Contact , Présentation */}
         <Route path="/" element={<Index />} index /> 
