@@ -27,11 +27,12 @@ const Index = (props) => {
           texte1="Bonjour le monde ! C’est Charlie LABAT ! 
           Bienvenue sur mon portfolio, portail entre vous et mes travaux. Venant tout droit du Nord picard, 
           j’était à Surgères du début au collège puis à Rochefort pour le lycée 
-          puis le BTS. Je suis actuellement étudiant en licence pro d’informatique à la Rochelle."
+          puis le BTS. Je suis actuellement en recherche d'emploi en développement Web"
           texte2="J’aime l’histoire, les maths et la musique. 
           J’ai fait des années de théâtre et un peu de tuba et du trombone à coulisse mais surtout du chant. En BTS,
           j’ai codé des projets ou étudié des langages comme l’HTML et le CCS, 
-          PHP dont du Laravel , du Symfony, du Wordpress ou du MVC, Javascript avec ReactJS et VueJS ainsi que Java. J’ai le Bac et le BTS SIO."
+          PHP dont du Laravel , du Symfony, du Wordpress ou du MVC, Javascript avec ReactJS et VueJS ainsi que Java. 
+          J’ai le Bac, le BTS SIO et la licence pro MIAW en tant que développeur Web."
           texte3="Sur ce portfolio, vous allez trouver des articles sur mes réalisations 
           mais aussi de la veille informatique notamment sur du développement Web.
            Vous pouvez aussi me contacter et si vous voulez savoir plus sur moi, 
